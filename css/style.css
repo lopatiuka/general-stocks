@@ -581,7 +581,15 @@ input::-webkit-input-placeholder {
     background: #F6F6F6;
     box-shadow: -9px -9px 16px rgba(255, 255, 255, 0.4), 6px 6px 16px rgba(179, 179, 179, 0.25);
     border-radius: 30px;
-    padding: 0 30px 30px 30px;
+    padding: 0 30px 0 30px;
+}
+
+.about .container .about-items .item .item-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2E2E2E;
 }
 
 .about .container .about-items .item img {
@@ -732,6 +740,7 @@ input::-webkit-input-placeholder {
     line-height: 90px;
     color: #2E2E2E;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .stock-leaders .container .stock-leaders-subheader {
@@ -740,6 +749,7 @@ input::-webkit-input-placeholder {
     line-height: 54px;
     color: #2E2E2E;
     margin-top: 10px;
+    text-align: center;
 }
 
 .stock-leaders .container .stock-leaders-items {
@@ -758,7 +768,7 @@ input::-webkit-input-placeholder {
     background-color: #FFFFFF;
     box-shadow: -9px -9px 16px rgba(216, 221, 234, 0.25), 9px 9px 16px rgba(179, 179, 179, 0.25);
     border-radius: 30px;
-    margin-right: 30px;
+    margin: 15px;
 }
 
 .stock-leaders .container .stock-leaders-items .item img {
@@ -1484,7 +1494,7 @@ details[open] summary .round-button {
     }
 }
 
-@media ( max-width: 1280px ) {
+@media ( max-width: 1300px ) {
     header .container {
         justify-content: center;
     }
@@ -1501,6 +1511,7 @@ details[open] summary .round-button {
         width: 657.2px;
         height: auto;
     }
+
     .intro .container .content .video-container .video-header h1 {
         font-size: 54px;
         text-align: left;
@@ -1526,6 +1537,7 @@ details[open] summary .round-button {
     .intro .container .content .form-container form input {
         width: 258.04px;
     }
+
     .intro .container .content .form-container form input[type = submit]{
         width: 216.96px;
         height: 65.39px;
@@ -1535,34 +1547,8 @@ details[open] summary .round-button {
     .intro .container .content .form-container form .checkboxes {
         width: 258.04px;
     }
-
-    .about .container .history {
-        width: 900px;
-    }
-
-    .about .container .history .paragraphs-container {
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-
-    .about .container .description {
-        height: auto;
-    }
-
-    .about .container .description p {
-        width: 478.33px;
-        height: auto;
-    }
-
     .about .container .about-items .item {
-        width: 310.49px;
-        height: 119px;
-    }
-
-    .about .container .about-items .item img {
-        width: 60px;
-        height: 60px;
-        margin-right: 10px;
+        width: 300.49px;
     }
 
     .about .container .about-items .item .item-detail h2 {
@@ -1570,78 +1556,24 @@ details[open] summary .round-button {
         margin-bottom: 0;
     }
 
+    .about .container .about-intro .intro-paragraph {
+        width: 485px;
+    }
+
+    .about .container .about-items .conclusion {
+        width: 1000px;
+    }
+
+    .about .container .about-items .item:first-child, .about .container .about-items .item:nth-child(3) {
+        height: 550px;
+    }
+
     .about .container .about-items .item .item-detail p {
         margin-top: 0;
     }
-   
-    .about .container .market-leaders .item {
-        width: 312.85px;
-        height: 750px;
-    }
 
-    .about .container .market-leaders .item .market-leaders-description {
-        height: 400px;
-        padding-left: 30px;
-        padding-right: 30px;
-        font-size: 16px;
-    }
-
-    .about .container .market-leaders .item .details-container {
-        align-items: center;
-    }
-
-    .about .container .market-leaders .item h3 {
-        display: inline-block;
-        font-size: 18px;
-        padding-left: 20px;
-        padding-right: 20px;
-        height: 70px;
-    }
-
-    .about .container .market-leaders .item .details-container .details-inner p {
-        font-size: 16px;
-    }
-
-    
-    .about .container .market-leaders .item .details-container img {
-        width: 81.26px;
-        height: 81.26px;
-    }
-
-    .about .container .market-leaders .item:nth-child(2) .details-container img {
-        margin-bottom: 0;
-        margin-top: -40px;
-    }
-
-    .growth .container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .growth .container .graphs {
-        flex-direction: column;
-        align-items: center;
-    }  
-
-    .growth .container .graph .img-1680 {
-        display: none;
-    }
-
-    .growth .container .graph .img-1280 {
-        display: block;
-    }
-
-    .growth .container .few-things {
-        margin-left: 0;
-        margin-top: 20px;
-        width: 801px;
-        height: 405.6px;
-    }
-
-    .growth .container .few-things .info {
-        flex-direction: row;
-        justify-content: space-around;
-        margin-left: 0;
+    .stock-leaders .container .stock-leaders-items .item {
+        width: 385px;
     }
 
     .how-works .container>h2 {
@@ -1820,27 +1752,16 @@ details[open] summary .round-button {
         height: 29.5px;       
     }
 
-    .about .container .history {
-        width: 900px;
-    }
-
-    .about .container .history .paragraphs-container {
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-
-    .about .container .description {
-        height: auto;
-    }
-
-    .about .container .description p {
-        width: 478.33px;
-        height: auto;
-    }
-
     .about .container .about-items .item {
-        width: 310.49px;
-        height: 119px;
+        width: 187px;
+    }
+
+    .about .container .about-items .item:first-child, .about .container .about-items .item:nth-child(3) {
+        height: 725px;
+    }
+
+    .about .container .about-items .item:nth-child(3) .item-header {
+        width: 181px;
     }
 
     .about .container .about-items .item img {
@@ -1849,52 +1770,16 @@ details[open] summary .round-button {
         margin-right: 10px;
     }
 
-    .about .container .about-items .item .item-detail h2 {
-        font-size: 27px;
-        margin-bottom: 0;
+    .about .container .about-header {
+        width: 590px;
     }
 
-    .about .container .about-items .item .item-detail p {
-        margin-top: 0;
-    }
-   
-    .about .container .market-leaders .item {
-        width: 312.85px;
-        height: 750px;
+    .about .container .about-intro .intro-paragraph {
+        width: 385px;
     }
 
-    .about .container .market-leaders .item .market-leaders-description {
-        height: 400px;
-        padding-left: 30px;
-        padding-right: 30px;
-        font-size: 16px;
-    }
-
-    .about .container .market-leaders .item .details-container {
-        align-items: center;
-    }
-
-    .about .container .market-leaders .item h3 {
-        display: inline-block;
-        font-size: 18px;
-        padding-left: 20px;
-        padding-right: 20px;
-        height: 70px;
-    }
-
-    .about .container .market-leaders .item .details-container .details-inner p {
-        font-size: 16px;
-    }
-
-    
-    .about .container .market-leaders .item .details-container img {
-        width: 81.26px;
-        height: 81.26px;
-    }
-
-    .about .container .market-leaders .item:nth-child(2) .details-container img {
-        margin-bottom: 0;
-        margin-top: -40px;
+    .about .container .about-items .conclusion {
+        width: 800px;
     }
 
     .how-works .container>h2 {
@@ -2074,41 +1959,6 @@ details[open] summary .round-button {
         height: 29.5px;       
     }
 
-
-    .about .container .history {
-        width: 800px;
-    }
-
-    .about .container .history .paragraphs-container .paragraphs {
-        width: 800px;
-        justify-content: space-between;
-    }
-
-    .about .container .history div .paragraphs .history-paragraph {
-        width: 385px;
-        margin-right: 0;
-    }
-
-    .about .container .history div img {
-        margin-right: 0;
-    }
-
-    .about .container .description {
-        height: auto;
-        margin-bottom: 10px;
-    }
-
-    .about .container .description p {
-        width: 384px;
-        height: auto;
-        font-size: 14px;
-    }
-
-    .about .container .about-items .item {
-        width: 247px;
-        height: 113px;
-    }
-
     .about .container .about-items .item img {
         width: 40px;
         height: 40px;
@@ -2257,41 +2107,44 @@ details[open] summary .round-button {
         width: 524px;
     }
 
-    .about .container .description {
-        height: auto;
+    .about .container .about-intro .intro-paragraph {
+        width: 309px;
     }
 
-    .about .container .description p {
-        height: auto;
+    .about .container .about-items {
+        flex-direction: row;
+        justify-content: center;
     }
 
     .about .container .about-items .item {
-        width: 306px;
+        width: 648px;
+        height: auto;
+        margin-bottom: 30px;
     }
 
-    .about .container .history {
-        width: 668px;
+    .about .container .about-items .item:nth-child(2) {
+        margin: 0 0 30px 0;
     }
 
-    .about .container .history .paragraphs-container .paragraphs {
-        width: 668px;
+    .about .container .about-items .item img {
+        width: initial;
+        height: initial;
     }
 
-    .about .container .history div .paragraphs .history-paragraph {
-        width: 319px;
+    .about .container .about-items .item:first-child, .about .container .about-items .item:nth-child(3) {
+        height: auto;
     }
 
-    .growth .container .graph .img-1280 {
-        display: none;
+    .about .container .about-items .conclusion {
+        width: 645px;
     }
 
-    .growth .container .graph .img-768 {
-        display: block;
+    .about .container .lets-go h3 {
+        width: 644px;
     }
 
-    .growth .container .few-things {
-        width: 668px;
-        height: 435.6px;
+    .stock-leaders .container .stock-leaders-items .item {
+        width: 308px;
     }
 
     .how-works .container>h2 {
@@ -2380,9 +2233,27 @@ details[open] summary .round-button {
     }
 }
 
+@media ( max-device-width: 1280px ) {
+    .about .container {
+        width: 100%;
+    }
+
+    .about .container .about-items {
+        width: 100%;
+    }
+}
+
 @media ( max-device-width: 880px ) {
     body {
         width: 872px;
+    }
+
+    .about .container {
+        width: 100%;
+    }
+
+    .about .container .about-items {
+        width: 100%;
     }
 }
 
@@ -2600,28 +2471,6 @@ details[open] summary .round-button {
         height: 50px;     
     }
 
-    .about .container .history {
-        width: 800px;
-    }
-
-    .about .container .history .about-intro {
-        font-size: 28px;
-    }
-
-    .about .container .history .paragraphs-container {
-        width: 800px;
-    }
-
-    .about .container .history .paragraphs-container .paragraphs {
-        width: 800px;
-    }
-
-    .about .container .history .paragraphs-container .paragraphs .history-paragraph {
-        width: 680px;
-        font-size: 28px;
-        line-height: 40px;
-    }
-
     .about .container .about-header {
         width: 724px;
         font-size: 50px;
@@ -2634,99 +2483,11 @@ details[open] summary .round-button {
 
     .about .container .about-items .item {
         width: 730px;
-        height: 113px;
     }
 
     .about .container .about-items .item img {
-        width: 90px;
-        height: 90px;
-    }
-
-    .about .container .partners {
-        width: 600px;
-    }
-
-    .about .container .partners img {
-        margin: 5px;
-    }
-
-    .about .container .partners .first-line img:nth-child(1){
-        width: 35.1px;
-        height: 29.3px;
-    }  
-    .about .container .partners .first-line img:nth-child(2){
-        width: 41.8px;
-        height: 29.3px;
-    }  
-    .about .container .partners .first-line img:nth-child(3){
-        width: 99.66px;
-        height: 29.3px;
-    }  
-    .about .container .partners .first-line img:nth-child(4){
-        width: 101.3px;
-        height: 29.3px;
-    }
-    .about .container .partners .first-line img:nth-child(5){
-        width: 72.73px;
-        height: 29.3px;
-    }   
-    
-    .about .container .partners .second-line img:nth-child(1){
-        width: 86.75px;
-        height: 29.3px;
-    } 
-    .about .container .partners .second-line img:nth-child(2){
-        width: 73.7px;
-        height: 29.3px;
-    } 
-    .about .container .partners .second-line img:nth-child(3){
-        width: 146.12px;
-        height: 29.3px;
-    } 
-    .about .container .partners .second-line img:nth-child(4){
-        width: 40.95px;
-        height: 41.02px;
-    } 
-    .about .container .partners .second-line img:nth-child(5){
-        width: 41.02px;
-        height: 41.02px;
-    }
-
-    .about .container .market-leaders .item {
-        width: 630.51px;
-        height: 600px;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: flex-start;
-    }
-
-    .about .container .market-leaders .item .market-leaders-description {
-        height: auto;
-        width: 330px;
-        font-size: 20px;
-        margin-top: 0;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    .about .container .market-leaders .item .details-container {
-        align-items: center;
-        flex-direction: column;
-        height: auto;
-    }
-
-    .about .container .market-leaders .item h3 {
-        display: inline-block;
-        font-size: 30px;
-        padding-left: 20px;
-        padding-right: 20px;
-        width: 100%;
-        height: 70px;
-    }
-
-    .about .container .about-items .item {
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 
     .about .container .about-items .item img {
@@ -3123,205 +2884,66 @@ details[open] summary .round-button {
         height: 50px;     
     }
 
-    .about .container .history {
-        width: 800px;
-    }
-
-    .about .container .history .about-intro {
-        font-size: 28px;
-    }
-
-    .about .container .history .paragraphs-container {
-        width: 800px;
-    }
-
-    .about .container .history .paragraphs-container .paragraphs {
-        width: 800px;
-    }
-
-    .about .container .history .paragraphs-container .paragraphs .history-paragraph {
-        width: 680px;
-        font-size: 28px;
-        line-height: 40px;
-    }
-
     .about .container .about-header {
         width: 724px;
         font-size: 50px;
         line-height: 50px;
     }
 
-    .about .container .description p {
-        width: 350px;
-    }
-
     .about .container .about-items .item {
         width: 730px;
-        height: 113px;
     }
 
     .about .container .about-items .item img {
-        width: 90px;
-        height: 90px;
-    }
-
-    .about .container .partners {
-        width: 600px;
-    }
-
-    .about .container .partners img {
-        margin: 5px;
-    }
-
-    .about .container .partners .first-line img:nth-child(1){
-        width: 35.1px;
-        height: 29.3px;
-    }  
-    .about .container .partners .first-line img:nth-child(2){
-        width: 41.8px;
-        height: 29.3px;
-    }  
-    .about .container .partners .first-line img:nth-child(3){
-        width: 99.66px;
-        height: 29.3px;
-    }  
-    .about .container .partners .first-line img:nth-child(4){
-        width: 101.3px;
-        height: 29.3px;
-    }
-    .about .container .partners .first-line img:nth-child(5){
-        width: 72.73px;
-        height: 29.3px;
-    }   
-    
-    .about .container .partners .second-line img:nth-child(1){
-        width: 86.75px;
-        height: 29.3px;
-    } 
-    .about .container .partners .second-line img:nth-child(2){
-        width: 73.7px;
-        height: 29.3px;
-    } 
-    .about .container .partners .second-line img:nth-child(3){
-        width: 146.12px;
-        height: 29.3px;
-    } 
-    .about .container .partners .second-line img:nth-child(4){
-        width: 40.95px;
-        height: 41.02px;
-    } 
-    .about .container .partners .second-line img:nth-child(5){
-        width: 41.02px;
-        height: 41.02px;
-    }
-
-    .about .container .market-leaders .item {
-        width: 630.51px;
-        height: 600px;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: flex-start;
-    }
-
-    .about .container .market-leaders .item .market-leaders-description {
-        height: auto;
-        width: 330px;
-        font-size: 20px;
-        margin-top: 0;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    .about .container .market-leaders .item .details-container {
-        align-items: center;
-        flex-direction: column;
-        height: auto;
-    }
-
-    .about .container .market-leaders .item h3 {
-        display: inline-block;
-        font-size: 30px;
-        padding-left: 20px;
-        padding-right: 20px;
-        width: 100%;
-        height: 70px;
-    }
-
-    .about .container .about-items .item {
-        height: 200px;
-    }
-
-    .about .container .about-items .item img {
-        width: 100px;
-        height: 100px;
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-
-    .about .container .about-items .item .item-detail {
-        width: 100%;
-        align-items: flex-start;
-    }
-
-    .about .container .about-items .item .item-detail h2 {
-        font-size: 50px;
-        margin-bottom: 20px;
-    }
-
-    .about .container .about-items .item .item-detail p {
-        font-size: 40px;
-        text-align: left;
-        line-height: 50px;
-    }
-
-    .about .container .market-leaders .item .details-container .details-inner p {
-        font-size: 20px;
-    }
-
-    .about .container .market-leaders .item .details-container img {
         width: 150px;
         height: 150px;
     }
 
-    .about .container .market-leaders .item:nth-child(2) .details-container img {
-        margin-bottom: 0;
-        margin-top: 15px;
-    }
-
-    .about .container .market-leaders .item:nth-child(3) .details-container img {
-        margin-top: -10px;
-    }
-    
-    .growth .container .graph .img-768 {
-        display: none;
-    }
-
-    .growth .container .graph .img-480 {
-        display: block;
-    }
-
-    .growth .container .graph img {
-        width: 830px;
-    }
-
-    .growth .container .few-things {
-        width: 830px;
-        height: auto;
-        border-radius: 35px;
-    }
-
-    .growth .container .few-things h3 {
-        width: auto;
+    .about .container .about-items .item .item-header {
         font-size: 35px;
     }
 
-    .growth .container .few-things .info {
-        margin-left: 100px;
-        margin-bottom: 50px;
+    .about .container .about-items .item .item-content {
+        font-size: 30px;
+        line-height: 50px;
     }
 
-    .growth .container .few-things .info div p {
+    .about .container .about-items .conclusion {
+        width: 790px;
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .about .container .about-intro .intro-paragraph {
+        width: 400px;
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .about .container .lets-go h3 {
+        font-size: 30px;
+        width: 790px;
+    }
+
+    .stock-leaders .container .stock-leaders-items .item {
+        width: 790px;
+        align-items: center;
+    }
+
+    .stock-leaders .container .stock-leaders-items .item img {
+        width: 300px;
+        height: 75px;
+    }
+
+    .stock-leaders .container .stock-leaders-items .item .header {
+        font-size: 30px;
+    }
+
+    .stock-leaders .container .stock-leaders-items .item .details {
+        align-self: center;
+    }
+
+    .stock-leaders .container .stock-leaders-items .item .details p {
         font-size: 35px;
     }
 
@@ -3621,27 +3243,9 @@ details[open] summary .round-button {
 
     .about .container .about-items .item {
         width: 730px;
-        height: 283px;
-        justify-content: space-between;
+        justify-content: center;
         padding-left: 10px;
         padding-right: 10px;
-    }
-
-    .about .container .about-items .item .item-detail {
-        width: 100%;
-        align-items: flex-start;
-        border-radius: 16px;
-    }
-
-    .about .container .about-items .item .item-detail h2 {
-        font-size: 60px;
-        margin-bottom: 20px;
-    }
-
-    .about .container .about-items .item .item-detail p {
-        font-size: 40px;
-        text-align: left;
-        line-height: 50px;
     }
 
     .about .container .about-items .item img {
@@ -3651,82 +3255,23 @@ details[open] summary .round-button {
         margin-right: 30px;
     }
 
-    .about .container .partners {
-        width: 700px;
-        margin-bottom: 50px;
-    }
-
-    .about .container .partners div {
-        margin-bottom: 30px;
-    }
-
-    .about .container .partners img {
-        margin: 5px;
-    }
-
     .about .container .about-header {
         font-size: 60px;
         line-height: 70px;
     }
 
-    .about .container .market-leaders .item {
-        width: 700px;
-        height: 1300px;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-
-    .about .container .market-leaders .item .market-leaders-description {
-        height: auto;
-        width: 362px;
-        font-size: 30px;
-        margin-top: 0;
-        margin-bottom: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-        line-height: 50px;
-    }
-
-    .about .container .market-leaders .item .details-container {
-        align-items: center;
+    .about .container .lets-go .about-links {
         flex-direction: column;
-        height: auto;
-        width: 250px;
+        align-items: center;
+        width: 100%;
     }
 
-    .about .container .market-leaders .item h3 {
-        font-size: 40px;
-    }
-
-    .about .container .market-leaders .item .details-container .details-inner {
-        height: auto;
-    }
-
-    .about .container .market-leaders .item .details-container .details-inner p {
-        font-size: 40px;
-        margin-bottom: 20px;
-        line-height: 50px;
-    }
-
-    .about .container .market-leaders .item .details-container img {
-        width: 160px;
-        height: 160px;
-        margin-top: 50px;
-    }
-
-    .about .container .market-leaders .item:first-child .details-container img {
-        margin-top: 60px;
-    }
-
-    .about .container .market-leaders .item:nth-child(2) .details-container img {
-        margin-bottom: 0;
-        margin-top: 15px;
-    }
-
-    .about .container .market-leaders .item:nth-child(3) .details-container img {
-        margin-top: -10px;
+    .about .container .lets-go .about-links .lets-go-link {
+        width: 790px;
+        height: 130px;
+        margin: 15px;
+        font-size: 50px;
+        border-radius: 100px;
     }
 
     .how-works .container>h2 {
