@@ -1072,7 +1072,6 @@ details[open] summary .round-button {
     }
 
     .intro .container .content .video-container {
-        width: 1800px;
         height: auto;
         margin-right: 50px;
     }
@@ -1114,32 +1113,26 @@ details[open] summary .round-button {
         line-height: 30px;
     }
 
-    .about .container .history .about-intro {
-        width: 2550px;
-        font-size: 30px;
+    .intro .ribbon {
+        display: flex;
+        justify-content: space-between;
+        width: 1920px;
     }
 
-    .about .container .history div .paragraphs .history-paragraph {
-        width: 918px;
-        font-size: 30px;
-        line-height: 45px;
+    .about .container .about-intro .intro-paragraph {
+        width: 976px;
     }
 
-    .growth .container .growth-header {
-        width: 100%;
+    .about .container .about-items {
+        width: 2002px;
     }
 
-    .growth .container .graph .img-1920 {
-        display: none;
+    .stock-leaders .container .stock-leaders-items .item {
+        width: 466px;
     }
 
-    .growth .container .graph .img-3000 {
-        display: block;
-    }
-
-
-    .growth .container .few-things {
-        width: 647px;
+    .about .container .about-items .item {
+        width: 587px;
     }
 
     .how-works .container .steps .step-item {
@@ -1273,25 +1266,26 @@ details[open] summary .round-button {
         margin-right: 100px;
     }
 
-    .about .container .history .about-intro {
-        width: 2000px;
+    .intro .ribbon {
+        display: flex;
+        justify-content: space-between;
+        width: 1920px;
     }
 
-    .about .container .history div .paragraphs .history-paragraph {
-        width: 643px;
+    .about .container .about-intro .intro-paragraph {
+        width: 976px;
     }
 
-    .growth .container .graph .img-1920 {
-        display: none;
+    .about .container .about-items {
+        width: 2002px;
     }
 
-    .growth .container .graph .img-3000 {
-        display: block;
+    .stock-leaders .container .stock-leaders-items .item {
+        width: 466px;
     }
 
-
-    .growth .container .few-things {
-        width: 647px;
+    .about .container .about-items .item {
+        width: 587px;
     }
 
     .how-works .container .steps .step-item {
