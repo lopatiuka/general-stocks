@@ -254,7 +254,7 @@ main {
 
 .intro .container .content .video-container {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     align-items: center;
     width: 1255px;
     height: auto;
@@ -263,6 +263,7 @@ main {
 
 .intro .container .content .video-container .video-header {
     align-self: flex-start;
+    margin-bottom: 150px;
 }
 
 .intro .container .content .video-container .video-header h1 {
@@ -275,12 +276,13 @@ main {
     text-transform: uppercase;
     color: #2E2E2E;
     margin-bottom: 0;
+    width: 1650px;
 }
 
 .intro .container .content .video-container p {
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 150%;
     text-align: left;
     color: #2E2E2E;
@@ -450,6 +452,12 @@ input::-webkit-input-placeholder {
     overflow-x: auto;
 }
 
+.intro .intro-disclaimer {
+    font-size: 18px;
+    color: #2E2E2E;
+}
+
+
 .intro .ribbon::-webkit-scrollbar-button {
     background-image:url('');
     background-repeat:no-repeat;
@@ -582,6 +590,10 @@ input::-webkit-input-placeholder {
     box-shadow: -9px -9px 16px rgba(255, 255, 255, 0.4), 6px 6px 16px rgba(179, 179, 179, 0.25);
     border-radius: 30px;
     padding: 0 30px 0 30px;
+}
+
+.about .container .about-items .item:nth-child(1), .about .container .about-items .item:nth-child(3) {
+    height: 500px;
 }
 
 .about .container .about-items .item .item-header {
@@ -1063,8 +1075,9 @@ details[open] summary .round-button {
     body {
         overflow-x: hidden;
     }
+
     header .container .main-content {
-        width: 2570px;
+        width: 2025px;
     }
 
     header .container .main-content .navigation a {
@@ -1329,12 +1342,16 @@ details[open] summary .round-button {
         width: 843px;
         height: auto;
     }
+
     .intro .container .content .video-container .video-header h1 {
         font-weight: 700;
+        font-size: 43px;
+        width: 1300px;
     }
 
     .intro .container .content .video-container .video-header {
         align-self: flex-start;
+        margin-bottom: 70px;
     }
 
     .intro .container .content .form-container {
@@ -1509,10 +1526,11 @@ details[open] summary .round-button {
     .intro .container .content .video-container .video-header h1 {
         font-size: 54px;
         text-align: left;
+        width: 1000px;
     }
 
     .intro .container .content .video-container .video-header {
-        align-self: center;
+        margin-bottom: 70px;
     }
 
     .intro .container .content .form-container {
@@ -1681,9 +1699,11 @@ details[open] summary .round-button {
         width: 657.2px;
         height: auto;
     }
+
     .intro .container .content .video-container .video-header h1 {
         font-size: 54px;
         text-align: left;
+        width: auto;
     }
 
     .intro .container .content .video-container .video-header {
