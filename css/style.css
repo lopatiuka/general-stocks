@@ -2157,7 +2157,7 @@ details[open] summary .round-button {
 
 @media ( max-width: 768px ) {
     header .exposure {
-        right: -180px;
+        right: -50px;
     }
 
     header .exposure .caption {
