@@ -238,7 +238,7 @@ main {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 220px;
+    margin-top: 115px;
     background-image: url("../images/Home\ bg\ element.png");
     background-repeat: no-repeat;
     background-size: auto;
@@ -263,7 +263,6 @@ main {
 
 .intro .container .content .video-container .video-header {
     align-self: flex-start;
-    margin-bottom: 150px;
 }
 
 .intro .container .content .video-container .video-header h1 {
@@ -276,6 +275,7 @@ main {
     text-transform: uppercase;
     color: #2E2E2E;
     margin-bottom: 0;
+    margin-top: 0;
     width: 1650px;
 }
 
@@ -443,7 +443,7 @@ input::-webkit-input-placeholder {
 }
 
 .intro .ribbon {
-    width: 100%;
+    width: auto;
     height: 223px;
     display: flex;
     align-items: center;
@@ -1386,7 +1386,6 @@ details[open] summary .round-button {
 
     .intro .container .content .video-container .video-header {
         align-self: flex-start;
-        margin-bottom: 70px;
     }
 
     .intro .container .content .form-container {
@@ -1403,6 +1402,10 @@ details[open] summary .round-button {
 
     .intro .container .content .form-container form .checkboxes {
         width: 335.4px;
+    }
+
+    .intro .ribbon {
+        width: 100%;
     }
 
     .about .container .history {
