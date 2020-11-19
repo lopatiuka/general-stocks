@@ -366,17 +366,6 @@
             AOS.init();
         </script>
         <script>
-            let showMenu = () => {
-                document.getElementById( "menu-container" ).classList.remove("hidden");
-            }
-
-            let hideMenu = () => {
-                document.getElementById( "menu-container" ).classList.add("hidden");
-            }
-
-            document.getElementById( "menu-icon" ).addEventListener( "click", showMenu );
-            document.getElementById( "hide-menu" ).addEventListener( "click", hideMenu );
-
             $("#register-link").click(function() { 
                 $('html, body').animate({
                     scrollTop: $("#form").offset().top
