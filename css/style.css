@@ -13,6 +13,43 @@ section {
   margin: 0;
 }
 
+h2 {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 90px;
+    color: #2E2E2E;
+}
+
+.absolute-img {
+    position: absolute;
+    z-index: 2;
+}
+
+.first {
+    left: 100px;
+    top: 900px;
+}
+
+.second {
+    left: 950px;
+    top: 470px;
+}
+
+.third {
+    right: 500px;
+    top: 1030px;
+}
+
+.fourth {
+    top: 130px;
+    left: 140px;
+}
+
+.fifth {
+    top: 250px;
+    right: 100px;
+}
+
 .wrapper {
     width: 100%;
 }
@@ -112,7 +149,7 @@ header .container .main-content {
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-  width: 1682px;
+  width: 1270px;
 }
 
 header .exposure{
@@ -227,7 +264,7 @@ main {
 
 .intro {
   width: 100%;
-  background-color: #F6F6F6;
+  background-color: #F7F7F7;
   justify-content: center;
 }
 .intro .container {
@@ -239,9 +276,7 @@ main {
     justify-content: flex-start;
     align-items: center;
     margin-top: 115px;
-    background-image: url("../images/Home\ bg\ element.png");
-    background-repeat: no-repeat;
-    background-size: auto;
+    z-index: 3;
 }
 
 .intro .container .content {
@@ -249,6 +284,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-end;
+    margin-top: 50px;
     margin-bottom: 80px;
 }
 
@@ -256,7 +292,7 @@ main {
     display: flex;
     flex-flow: column;
     align-items: center;
-    width: 1255px;
+    width: 843px;
     height: auto;
     margin-right: 0;
 }
@@ -269,29 +305,37 @@ main {
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 76px;
+    font-size: 60px;
     line-height: 105px;
     text-align: left;
     text-transform: uppercase;
     color: #2E2E2E;
     margin-bottom: 0;
     margin-top: 0;
-    width: 1650px;
+    width: 1270px;
+}
+
+.blue-color {
+    color: #1D46F6;
 }
 
 .intro .container .content .video-container p {
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
-    line-height: 150%;
+    font-size: 18px;
+    line-height: 32.4px;
     text-align: left;
-    color: #2E2E2E;
+    color: #606060;
     margin-top: 0;
+}
+
+.intro .container .content .video-container p .bold-text {
+    font-weight: bold;
 }
 
 .intro .container .content .video-container .video {
     width: 100%;
-    height: 640.15px;
+    height: 524px;
     margin-top: 20px;
     border-radius: 30px;
 }
@@ -306,12 +350,12 @@ main {
     justify-content: flex-start;
     align-items: center;
     width: 407px;
-    height: 878px;
+    height: 777px;
     margin-top: 50px;
     margin-left: 20px;
     box-shadow: -9px -9px 16px rgba(255, 255, 255, 0.6), 9px 9px 16px rgba(179, 179, 179, 0.25);
     border-radius: 30px;
-    background-image: linear-gradient(90deg, #F3F3F3 0%, #F9F8F8 51.56%, #F3F3F3 100%);
+    background-color: #F9F9F9;
 }
 
 .intro .container .content .form-container img {
@@ -323,11 +367,12 @@ main {
 .intro .container .content .form-container h2 {
     font-size: 22px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 33px;
     letter-spacing: 0em;
     text-align: center;
     color: #2E2E2E;
+    margin-top: 50px;
 }
 
 .intro .container .content .form-container h3 {
@@ -335,10 +380,8 @@ main {
     font-weight: 500;
     font-size: 22px;
     line-height: 150%;
-
     text-align: center;
-
-    color: #2E2E2E;
+    color: #1367CD;
 }
 
 .intro .container .content .form-container form {
@@ -447,9 +490,12 @@ input::-webkit-input-placeholder {
     height: 223px;
     display: flex;
     align-items: center;
-    z-index: 10;
     background-color: #F7F7F7;
     overflow-x: auto;
+}
+
+.intro .ribbon img {
+    z-index: 3;
 }
 
 .intro .intro-disclaimer {
@@ -494,8 +540,36 @@ input::-webkit-input-placeholder {
 
 .about{
     width: 100%;
-    margin-top: -35px;
-    background-image: linear-gradient(180deg, #F6F6F6 5.38%, rgba(255, 255, 255, 0) 144.45%);
+}
+
+.absolute-img-about {
+    position: absolute;
+    z-index: 0;
+}
+
+.about-first {
+    left: 155px;
+    top: 2070px;
+}
+
+.about-second {
+    left: 800px;
+    top: 1655px;
+}
+
+.about-third {
+    right: 1000px;
+    top: 1967px;
+}
+
+.about-fourth {
+    top: 1530px;
+    left: 140px;
+}
+
+.about-fifth {
+    top: 1750px;
+    right: 100px;
 }
 
 .about .container{
@@ -540,30 +614,36 @@ input::-webkit-input-placeholder {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    margin-top: 30px;
 }
 
-.about .container .about-intro .intro-paragraph {
-    width: 625px;
-    font-size: 18px;
-    line-height: 27px;
+.about .container .about-intro .header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 624px;
+    margin-right: 50px;
+}
+
+.about .container .about-intro .header-container h2 {
+    font-size: 48px;
+    line-height: 72px;
+    margin-top: 0;
+}
+
+.about .container .about-intro .header-container .text {
+    font-size: 32px;
+    line-height: 48px;
     color: #606060;
+    margin-top: 0;
 }
 
-.about .container .about-intro .intro-paragraph:first-child {
-    margin-right: 30px;
-}
-
-.about .container .description p{
-    display: inline-block;
-    width: 824px;
-    height: auto;
+.about .container .about-intro .content {
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px;
-    margin-right: 30px;
-    letter-spacing: 0em;
-    color: white;
+    line-height: 180%;
+    color: #606060;
+    max-width: 624px;
+    margin-top: 0;
 }
 
 .about .container .about-items {
@@ -571,9 +651,7 @@ input::-webkit-input-placeholder {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    z-index: 10;
     margin-top: 50px;
-    width: 1282px;
 }
 
 .about .container {
@@ -584,16 +662,20 @@ input::-webkit-input-placeholder {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 347px;
-    height: auto;
-    background: #F6F6F6;
+    width: 407px;
+    height: 763px;
     box-shadow: -9px -9px 16px rgba(255, 255, 255, 0.4), 6px 6px 16px rgba(179, 179, 179, 0.25);
     border-radius: 30px;
     padding: 0 30px 0 30px;
+    margin: 10px;
+    z-index: 3;
 }
 
-.about .container .about-items .item:nth-child(1), .about .container .about-items .item:nth-child(3) {
-    height: 500px;
+.about .container .about-items .item h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #1367CD;
 }
 
 .about .container .about-items .item .item-header {
@@ -601,7 +683,7 @@ input::-webkit-input-placeholder {
     font-weight: bold;
     font-size: 20px;
     line-height: 30px;
-    color: #2E2E2E;
+    color: #1367CD;
 }
 
 .about .container .about-items .item img {
@@ -610,24 +692,8 @@ input::-webkit-input-placeholder {
 
 .about .container .about-items .item .item-content {
     font-size: 18px;
-    line-height: 27px;
+    line-height: 32.4px;
     color: #606060;
-}
-
-.about .container .about-items .item:nth-child(2){
-    margin: 0 20px 0 20px;
-}
-
-.about .container .about-items .conclusion {
-    width: 100%;
-    font-size: 20px;
-    line-height: 30px;
-    color: #606060;
-}
-
-.about .container .about-items .conclusion .blue-color {
-    color: #1367CD;
-    font-weight: bold;
 }
 
 .about .container .about-items .item .item-detail {
@@ -660,80 +726,23 @@ input::-webkit-input-placeholder {
     margin-top: 5px;
 }
 
-.about .container .lets-go {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 844px;
+.stock-leaders {
+    background-color: #F6F6F6;
 }
 
-.about .container .lets-go h3 {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-    text-align: center;
-    color: #606060;
+.stock-first {
+    left: 800px;
+    top: 4370px;
 }
 
-.about .container .lets-go .blue-header {
-    font-weight: bold;
-    font-size: 60px;
-    line-height: 90px;
-    text-align: center;
-    color: #1367CD;
-    margin-top: 0;
+.stock-fourth {
+    top: 3140px;
+    left: 140px;
 }
 
-.about .container .lets-go .about-links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 626px
-}
-
-.about .container .lets-go .about-links .lets-go-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 298px;
-    height: 68px;
-    border-radius: 50px;
-    font-weight: 500;
-    font-size: 18px;
-    text-decoration: none;
-    border: 2px solid #1367CD;
-    box-sizing: border-box;
-    transition-property: background-color, color;
-    transition-duration: 0.2s;
-}
-
-.about .container .lets-go .about-links .lets-go-link:active {
-    background-color: #0E1E9B;
-}
-
-.about .container .lets-go .about-links .first-link {
-    background-color:  #1D46F6;
-    color: #FDFDFD;
-}
-
-.about .container .lets-go .about-links .first-link:hover {
-    background-color: #1428BF;
-    border: none;
-}
-
-.about .container .lets-go .about-links .lets-go-link:active {
-    background-color: #0E1E9B;
-}
-
-.about .container .lets-go .about-links .second-link {
-    background-color: none;
-    color: #1D46F6;
-}
-
-.about .container .lets-go .about-links .second-link:hover {
-    background-color:  #1428BF;
-    border: none;
-    color: #FDFDFD;
+.stock-fifth {
+    top: 3450px;
+    right: 100px;
 }
 
 .stock-leaders .container {
@@ -741,8 +750,7 @@ input::-webkit-input-placeholder {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background-image: url("../images/Home\ bg\ element.png");
-    background-size: auto;
+    z-index: 3;
 }
 
 
@@ -777,7 +785,7 @@ input::-webkit-input-placeholder {
     flex-direction: column;
     align-items: center;
     width: 298px;
-    background-color: #FFFFFF;
+    background-color: #F6F6F6;
     box-shadow: -9px -9px 16px rgba(216, 221, 234, 0.25), 9px 9px 16px rgba(179, 179, 179, 0.25);
     border-radius: 30px;
     margin: 15px;
@@ -808,6 +816,95 @@ input::-webkit-input-placeholder {
 
 .stock-leaders .container .stock-leaders-items .item .details p .bold {
     font-weight: bold;
+}
+
+.stock-leaders .container .conclusion {
+    max-width: 1312px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #606060;
+}
+
+.stock-leaders .container .conclusion .blue-color {
+    color: #1367CD;
+    font-weight: bold;
+}
+
+.stock-leaders .container .lets-go {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 844px;
+    margin-bottom: 100px;
+}
+
+.stock-leaders .container .lets-go h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #606060;
+}
+
+.stock-leaders .container .lets-go .blue-header {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 90px;
+    text-align: center;
+    color: #1367CD;
+    margin-top: 0;
+}
+
+.stock-leaders .container .lets-go .about-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 626px
+}
+
+.stock-leaders .container .lets-go .about-links .lets-go-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 298px;
+    height: 68px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    border: 2px solid #1367CD;
+    box-sizing: border-box;
+    transition-property: background-color, color;
+    transition-duration: 0.2s;
+}
+
+.stock-leaders .container .lets-go .about-links .lets-go-link:active {
+    background-color: #0E1E9B;
+}
+
+.stock-leaders .container .lets-go .about-links .first-link {
+    background-color:  #1D46F6;
+    color: #FDFDFD;
+}
+
+.stock-leaders .container .lets-go .about-links .first-link:hover {
+    background-color: #1428BF;
+    border: none;
+}
+
+.stock-leaders .container .lets-go .about-links .lets-go-link:active {
+    background-color: #0E1E9B;
+}
+
+.stock-leaders .container .lets-go .about-links .second-link {
+    background-color: none;
+    color: #1D46F6;
+}
+
+.stock-leaders .container .lets-go .about-links .second-link:hover {
+    background-color:  #1428BF;
+    border: none;
+    color: #FDFDFD;
 }
 
 .how-works {
@@ -934,6 +1031,33 @@ input::-webkit-input-placeholder {
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 100px;
+    z-index: 2;
+}
+
+.faq-first {
+    left: 115px;
+    top: 4670px;
+}
+
+.faq-second {
+    left: 770px;
+    top: 4803px;
+}
+
+.faq-third {
+    right: 527px;
+    top: 4848px;
+}
+
+.faq-fourth {
+    top: 5030px;
+    left: 140px;
+}
+
+.faq-fifth {
+    top: 5223px;
+    right: 4px;
+    z-index: -1;
 }
 
 .faq .container .faq-header {
@@ -966,7 +1090,7 @@ input::-webkit-input-placeholder {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    width: 1680px;
+    width: 1280px;
 }
 
 .faq .container .answers details summary::-webkit-details-marker {
@@ -1030,6 +1154,7 @@ details[open] summary .round-button {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    z-index: 3;
 }
 
 .footer .container {
@@ -1086,6 +1211,10 @@ details[open] summary .round-button {
     width: 80%;
 }
 
+.footer .risk-disclaimer p {
+    color: #FDFDFD;
+}
+
 .footer .risk-disclaimer h2, .footer .risk-disclaimer p {
     text-align: center;
 }
@@ -1120,12 +1249,13 @@ details[open] summary .round-button {
     }
 
     .intro .container .content .video-container {
+        width: 1323px;
         height: auto;
         margin-right: 50px;
     }
 
     .intro .container .content .video-container .video {
-        height: 900px;
+        height: 575px;
     }
 
     .intro .container .content .form-container {
@@ -1378,12 +1508,6 @@ details[open] summary .round-button {
         height: auto;
     }
 
-    .intro .container .content .video-container .video-header h1 {
-        font-weight: 700;
-        font-size: 70px;
-        width: 1300px;
-    }
-
     .intro .container .content .video-container .video-header {
         align-self: flex-start;
     }
@@ -1577,11 +1701,6 @@ details[open] summary .round-button {
 
     .intro .container .content .form-container h2 {
         width: 252.24px;
-        font-size: 18px;
-    }
-
-    .intro .container .content .form-container h2 {
-        font-size: 18px;
     }
 
     .intro .container .content .form-container form input {
@@ -1597,9 +1716,7 @@ details[open] summary .round-button {
     .intro .container .content .form-container form .checkboxes {
         width: 258.04px;
     }
-    .about .container .about-items .item {
-        width: 300.49px;
-    }
+   
 
     .about .container .about-items .item .item-detail h2 {
         font-size: 27px;
@@ -1614,9 +1731,6 @@ details[open] summary .round-button {
         width: 1000px;
     }
 
-    .about .container .about-items .item:first-child, .about .container .about-items .item:nth-child(3) {
-        height: 550px;
-    }
 
     .about .container .about-items .item .item-detail p {
         margin-top: 0;
@@ -1762,11 +1876,6 @@ details[open] summary .round-button {
 
     .intro .container .content .form-container h2 {
         width: 252.24px;
-        font-size: 18px;
-    }
-
-    .intro .container .content .form-container h2 {
-        font-size: 18px;
     }
 
     .intro .container .content .form-container form input {
@@ -1812,16 +1921,24 @@ details[open] summary .round-button {
         height: 29.5px;       
     }
 
+    .about .container .about-intro .header-container {
+        width: 403px;
+    }
+
+    .about .container .about-intro .content {
+        max-width: 390px;
+    }
+
     .about .container .about-items .item {
-        width: 187px;
+        padding: 0 10px 0 10px;
+        width: 227px;
+        height: 985px;
     }
 
-    .about .container .about-items .item:first-child, .about .container .about-items .item:nth-child(3) {
-        height: 725px;
-    }
-
-    .about .container .about-items .item:nth-child(3) .item-header {
-        width: 181px;
+    .about .container .about-items .item .item-header {
+        display: flex;
+        align-items: center;
+        height: 60px;
     }
 
     .about .container .about-items .item img {
@@ -1840,6 +1957,10 @@ details[open] summary .round-button {
 
     .about .container .about-items .conclusion {
         width: 800px;
+    }
+
+    .stock-leaders .container .conclusion {
+        max-width: 828px;
     }
 
     .how-works .container>h2 {
@@ -1953,27 +2074,51 @@ details[open] summary .round-button {
         left: 50px;
     }
 
+    .first {
+        left: 100px;
+        top: 1700px;
+    }
+
+    .second {
+        left: 524px;
+        top: 470px;
+    }
+
+    .third {
+        right: 50px;
+        top: 1530px;
+    }
+
+    .fourth {
+        top: 130px;
+        left: 540px;
+    }
+
+    .fifth {
+        top: 1050px;
+        right: 124px;
+    }
+
     .intro .container .content {
         flex-direction: column;
         align-items: center;
     }
     .intro .container .content .video-container {
-        width: 657.2px;
+        width: 800px;
         height: auto;
         margin-bottom: 100px;
     }
     
+    .intro .container .content .video-container .video {
+        height: 411px;
+    }
+
     .intro .container .content .form-container {
         width: 524px;
     }
 
     .intro .container .content .form-container h2 {
         width: 400px;
-        font-size: 18px;
-    }
-
-    .intro .container .content .form-container h2 {
-        font-size: 18px;
     }
 
     .intro .container .content .form-container form input {
@@ -2019,6 +2164,31 @@ details[open] summary .round-button {
         height: 29.5px;       
     }
 
+    .about-first {
+        left: 155px;
+        top: 1070px;
+    }
+    
+    .about-second {
+        left: 800px;
+        top: 2655px;
+    }
+    
+    .about-third {
+        right: 1000px;
+        top: 2967px;
+    }
+    
+    .about-fourth {
+        top: 2530px;
+        left: 140px;
+    }
+    
+    .about-fifth {
+        top: 2750px;
+        right: 100px;
+    }
+
     .about .container .about-items .item img {
         width: 40px;
         height: 40px;
@@ -2028,6 +2198,21 @@ details[open] summary .round-button {
 
     .about .container .about-items .item .item-detail p {
         font-size: 14px;
+    }
+
+    .stock-first {
+        left: 364px;
+        top: 5370px;
+    }
+
+    .stock-fourth {
+        top: 5284px;
+        left: 140px;
+    }
+
+    .stock-fifth {
+        top: 5750px;
+        right: 100px;
     }
 
     .feedbacks .container .feedback-item:nth-child(3) {
@@ -2114,6 +2299,31 @@ details[open] summary .round-button {
         margin-left: -180px;
     }
 
+    .faq-first {
+        left: 115px;
+        top: 6970px;
+    }
+
+    .faq-second {
+        left: 286px;
+        top: 6924px;
+    }
+
+    .faq-third {
+        right: 728px;
+        top: 7316px;
+    }
+
+    .faq-fourth {
+        top: 6903px;
+        left: 540px;
+    }
+
+    .faq-fifth {
+        top: 7352px;
+        right: 4px;
+        z-index: -1;
+    }
 
     .faq .container {
         width: 100%;
@@ -2159,6 +2369,41 @@ details[open] summary .round-button {
 }
 
 @media ( max-width: 768px ) {
+    .second {
+        left: 568px;
+    }
+    
+    .stock-fourth {
+        top: 7562px;
+        left: 462px;
+    }
+
+    .faq-first {
+        left: 50px;
+        top: 8070px;
+    }
+
+    .faq-second {
+        left: 221px;
+        top: 8184px;
+    }
+
+    .faq-third {
+        right: 130px;
+        top: 8210px;
+    }
+
+    .faq-fourth {
+        top: 8438px;
+        left: 30px;
+    }
+
+    .faq-fifth {
+        top: 8539px;
+        right: 4px;
+        z-index: -1;
+    }
+
     header .exposure {
         right: -50px;
     }
@@ -2167,12 +2412,29 @@ details[open] summary .round-button {
         font-size: 14px;
     }
 
-    .about .container .about-header {
-        width: 524px;
+    .intro .container .content .video-container {
+        width: 649px;
     }
 
-    .about .container .about-intro .intro-paragraph {
-        width: 309px;
+    .intro .container .content .form-container {
+        width: 649px;
+        height: 739px;
+    }
+
+    .intro .container .content .form-container form input {
+        width: 501.5px;
+    }
+
+    .intro .container .content .form-container form .checkboxes {
+        width: 501.5px;
+    }
+
+    .about .container .about-intro .header-container {
+        width: 315.84px;
+    }
+
+    .about .container .about-intro .content {
+        max-width: 315.84px;
     }
 
     .about .container .about-items {
@@ -2195,10 +2457,6 @@ details[open] summary .round-button {
         height: initial;
     }
 
-    .about .container .about-items .item:first-child, .about .container .about-items .item:nth-child(3) {
-        height: auto;
-    }
-
     .about .container .about-items .conclusion {
         width: 645px;
     }
@@ -2207,8 +2465,16 @@ details[open] summary .round-button {
         width: 644px;
     }
 
+    .stock-leaders .container .conclusion {
+        max-width: 652px;
+    }
+
     .stock-leaders .container .stock-leaders-items .item {
         width: 308px;
+    }
+
+    .stock-leaders .container .lets-go {
+        width: 650px;
     }
 
     .how-works .container>h2 {
@@ -2370,9 +2636,6 @@ details[open] summary .round-button {
         overflow-x: hidden;
     }
 
-    header {
-        width: 890px;
-    }
     .menu-icon {
         right: -400px;
     }
@@ -2772,23 +3035,18 @@ details[open] summary .round-button {
         overflow-x: hidden;
     }
 
+    .absolute-img {
+        display: none;
+    }
+
     .wrapper {
         width: 890px;
         overflow-x: hidden;
     }
 
-    header {
-        width: 890px;
-    }
     .menu-icon {
         right: -400px;
     }
-
-    .right-vector {
-        right: -400px;
-        display: none;
-    }
-
 
     .menu-container {
         position: absolute;
@@ -2836,10 +3094,6 @@ details[open] summary .round-button {
         font-size: 14px;
     }
 
-    .intro .container .video-header h1 {
-        margin-left: 0;
-    }
-
     .intro .container .content .video-container {
         width: 800px;
         height: auto;
@@ -2850,17 +3104,29 @@ details[open] summary .round-button {
     }
 
     .intro .container .content .video-container .video-header h1 {
-        font-size: 36px;
+        font-size: 60px;
+        line-height: 72px;
         text-align: left;
+        margin-left: 0;
+    }
+
+    .intro .container .content .video-container p {
+        font-size: 34px;
+        line-height: 56px;
     }
 
     .intro .container .content .video-container .video-header p {
         text-align: center;
     }
 
+    .intro .container .content .video-container iframe {
+        border-radius: 50px;
+    }
+
     .intro .container .content .form-container {
         width: 800px;
         height: auto;
+        border-radius: 50px;
     }
 
     .intro .container .content .form-container h2 {
@@ -2876,11 +3142,6 @@ details[open] summary .round-button {
         width: 755px;
         height: 70px;
         font-size: 30px;
-    }
-    .intro .container .content .form-container form input[type = submit]{
-        height: 65.39px;
-        width: 463.07px;
-        margin-bottom: 50px;
     }
 
     .intro .container .content .form-container form .checkboxes {
@@ -2901,7 +3162,7 @@ details[open] summary .round-button {
         width: 580px;
         height: 100px;
         border-radius: 100px;
-        font-size: 30px;
+        font-size: 38px;
         font-weight: 500;
     }
 
@@ -2954,8 +3215,30 @@ details[open] summary .round-button {
         line-height: 50px;
     }
 
+    .about .container .about-intro .header-container {
+        width: 776.84px;
+    }
+
+    .about .container .about-intro .header-container h2 {
+        font-size: 70px;
+        line-height: 90px;
+        margin-top: 0px;
+    }
+
+    .about .container .about-intro .header-container .text {
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .about .container .about-intro .content {
+        max-width: 100%;
+        font-size: 36px;
+        margin: 0 35px 0 35px;
+    }
+
     .about .container .about-items .item {
         width: 730px;
+        padding: 0px 20px;
     }
 
     .about .container .about-items .item img {
@@ -2968,24 +3251,19 @@ details[open] summary .round-button {
     }
 
     .about .container .about-items .item .item-content {
-        font-size: 30px;
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .stock-leaders .container .conclusion {
+        max-width: 790px;
+        font-size: 35px;
         line-height: 50px;
     }
 
-    .about .container .about-items .conclusion {
-        width: 790px;
-        font-size: 30px;
-        line-height: 50px;
-    }
-
-    .about .container .about-intro .intro-paragraph {
-        width: 400px;
-        font-size: 30px;
-        line-height: 50px;
-    }
-
-    .about .container .lets-go h3 {
-        font-size: 30px;
+    .stock-leaders .container .lets-go h3 {
+        font-size: 45px;
+        line-height: 60px;
         width: 790px;
     }
 
@@ -3009,6 +3287,19 @@ details[open] summary .round-button {
 
     .stock-leaders .container .stock-leaders-items .item .details p {
         font-size: 35px;
+    }
+
+    .stock-leaders .container .lets-go .about-links {
+        display: flex;
+        justify-content: center;
+    }
+
+    .stock-leaders .container .lets-go .about-links .lets-go-link {
+        width: 523px;
+        height: 125px;
+        border-radius: 65px;
+        margin-bottom: 20px;
+        font-size: 40px;
     }
 
     .how-works .container>h2 {
@@ -3105,8 +3396,10 @@ details[open] summary .round-button {
     }
 
     .faq .container .answers details summary{
-        height: 80px;
-        font-size: 25px;
+        height: 100px;
+        font-size: 35px;
+        line-height: 37px;
+        border-radius: 30px;
     }
 
     .faq .container .answers details summary .round-button {
@@ -3116,7 +3409,8 @@ details[open] summary .round-button {
     }
 
     .faq .container .answers details p {
-        font-size: 20px;
+        font-size: 32px;
+        line-height: 40px;
     }
     
 
@@ -3138,6 +3432,7 @@ details[open] summary .round-button {
     }
 
     .footer .container .links-list div a {
+        font-size: 30px;
         font-weight: 400;
         margin-right: 30px;
     }
@@ -3175,10 +3470,6 @@ details[open] summary .round-button {
         width: 100%;
     }
 
-    header {
-        width: 880px;
-    }
-
     .menu-icon {
         right: -450px;
         top: 35px;
@@ -3212,6 +3503,10 @@ details[open] summary .round-button {
     header .exposure .caption {
         font-size: 18px;
     }
+
+    header .container .main-content img {
+        margin-top: 30px;
+    }
   
 
     header .container {
@@ -3228,13 +3523,14 @@ details[open] summary .round-button {
     }
 
     .intro .container .content .video-container .video-header h1 {
-        font-size: 90px;
+        font-size: 85px;
         text-align: left;
         line-height: 100px;
     }
 
-    .intro .container .content .video-container .video-header p {
-        font-size: 50px;
+    .intro .container .content .video-container p {
+        font-size: 49px;
+        line-height: 72px;
     }
 
     .intro .container .content .video-container .video {
@@ -3242,7 +3538,7 @@ details[open] summary .round-button {
     }
 
     .intro .container .content .form-container {
-        width: 624px;
+        width: 800px;
         height: auto;
     }
 
@@ -3257,8 +3553,9 @@ details[open] summary .round-button {
     }
 
     .intro .container .content .form-container form input {
-        width: 531.81px;
-        font-size: 30px;
+        width: 760.81px;
+        height: 100px;
+        font-size: 50px;
         padding-bottom: 5px;
     }
     .intro .container .content .form-container form input[type = submit]{
@@ -3266,11 +3563,11 @@ details[open] summary .round-button {
         width: 463.07px;
         margin-bottom: 50px;
         border-radius: 50px;
-        font-size: 25px;
+        font-size: 45px;
     }
 
     .intro .container .content .form-container form .checkboxes {
-        width: 531.81px;
+        width: 760.81px;
     }
 
     .intro .container .content .form-container form input[type=checkbox] {
@@ -3278,11 +3575,23 @@ details[open] summary .round-button {
         height: 40px;
     }
 
-    
-
     .intro .container .content .form-container form .checkboxes label span {
-        font-size: 30px;
-        line-height: 50px;
+        font-size: 38px;
+        line-height: 60px;
+    }
+
+    .about .container .about-intro .header-container h2 {
+        font-size: 78px;
+    }
+
+    .about .container .about-intro .header-container .text {
+        font-size: 58px;
+        line-height: 70px;
+    }
+
+    .about .container .about-intro .content {
+        font-size: 49px;
+        margin: 0 45px;
     }
 
     .growth .container .graph .img-480 {
@@ -3308,15 +3617,28 @@ details[open] summary .round-button {
     .about .container .about-items .item {
         width: 730px;
         justify-content: center;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .about .container .about-items .item img {
-        width: 110px;
-        height: 110px;
+        width: 150px;
+        height: 150px;
         margin-left: 30px;
         margin-right: 30px;
+    }
+
+    .about .container .about-items .item h2 {
+        font-size: 50px;
+    }
+
+    .about .container .about-items .item .item-header {
+        font-size: 48px;
+    }
+
+    .about .container .about-items .item .item-content {
+        font-size: 55px;
+        line-height: 75px;
     }
 
     .about .container .about-header {
@@ -3336,6 +3658,16 @@ details[open] summary .round-button {
         margin: 15px;
         font-size: 50px;
         border-radius: 100px;
+    }
+
+    .stock-leaders .container .conclusion {
+        font-size: 52px;
+        line-height: 72px;
+    }
+
+    .stock-leaders .container .lets-go h3 {
+        font-size: 56px;
+        line-height: 70px;
     }
 
     .how-works .container>h2 {
@@ -3375,25 +3707,28 @@ details[open] summary .round-button {
 
     .faq .container .answers details {
         width: 800px;
-        height: 100px;
-        margin-bottom: 30px;
+        height: 130px;
+        margin-bottom: 50px;
     }
 
     .faq .container .answers details summary {
-        font-size: 30px;
-        height: 100px;
-        line-height: 50px;
+        font-size: 29px;
+        height: 150px;
+        line-height: 65px;
+        border-radius: 50px;
     }
 
     .faq .container .answers details summary .round-button {
         width: 70px;
         height: 70px;
         margin: 20px;
+        margin-right: 50px;
         font-size: 40px;
     }
 
     .faq .container .answers details p {
-        font-size: 14px;
+        font-size: 50px;
+        line-height: 60px;
     }
 
     .footer .container {

@@ -6,6 +6,8 @@
         <title>General Stocks</title>
         <link rel = "stylesheet" href = "css/style.css"/>
         <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
          <!-- BEGIN intgrtn -->
          <script type="text/javascript">
@@ -24,27 +26,9 @@
     <body>
         <div class="wrapper">
             <header>
-                <div id = "menu-container" class = "menu-container hidden">
-                    <p id = "hide-menu" class = "hide">&#10006;</p>
-                    <div class = "menu-links">
-                        <a id = "home-link" href="https://traders.expert/" target="_blank">Home</a>
-                        <a id = "what-we-do-link"  href="https://traders.expert/" target="_blank">What we do</a>
-                        <a id = "leaders-link"  href="https://traders.expert/" target="_blank">Reviews</a>
-                        <a id = "how-works-link" href = "https://traders.expert/" target="_blank">How it works</a>
-                        <a id = "faq-link" href = "https://traders.expert/" target="_blank">FAQ</a>
-                    </div>
-                </div>
                 <div class = "container">
                     <div class = "main-content">
                         <img src = "images/Stocks Man logo dark.png">
-                        <div class = "navigation">
-                            <a id = "home-link" href="https://traders.expert/" target="_blank">Home</a>
-                            <a id = "what-we-do-link"  href="https://traders.expert/" target="_blank">What we do</a>
-                            <a id = "leaders-link"  href="https://traders.expert/" target="_blank">Reviews</a>
-                            <a id = "how-works-link" href = "https://traders.expert/" target="_blank">How it works</a>
-                            <a id = "faq-link" href = "https://traders.expert/" target="_blank">FAQ</a>
-                            </nav>
-                        </div>
                     </div>
                 </div>
                 <div class = "exposure">
@@ -53,36 +37,36 @@
                         <img id = "flag"><p id = "location"></p>
                     </div>
                 </div>
-                <div id = "menu-icon" class = "menu-icon">
-                    <div class = "line"></div>
-                    <div class = "line"></div>
-                    <div class = "line"></div>
-                </div>
             </header>
             <main class = "main">
                 <section id = "home" class = "intro">
+                    <img src = "images/1.png" class = "absolute-img first">
+                    <img src = "images/2.png" class = "absolute-img second">
+                    <img src = "images/3.png" class = "absolute-img third">
+                    <img src = "images/4.png" class = "absolute-img fourth">
+                    <img src = "images/5.png" class = "absolute-img fifth">
                     <div class = "container">
                         <div class = "content">  
                             <div class = "video-container">
-                                <div class = "video-header">
-                                    <h1>Stocks are the best investment</br>
-                                        you can make!
-                                    </h1>
+                                <div class = "video-header" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
+                                    <h1>Stocks are the best investment. <span class = "blue-color">Ever!</span></h1>
                                 </div>  
-                                <p class="video-caption">
-                                    Stocks have been around since 1611… Over 400 years, it is by far the best option for your money, 
-                                    but still we like to gamble and take unnecessary risks with our well-earned funds. Discover and 
-                                    benefit from the true value of stocks and the value it can bring to your life & future.
+                                <p class="video-caption" data-aos="fade-down" data-aos-duration="1000">
+                                    In 1611, Shakespeare presented “The Temptest” to the world. You know what else happened that year?</br>
+                                </br>
+                                    <span class = "bold-text">The first stocks were traded</span>. That’s right, stocks go back for over 400 years and they’ve survived 
+                                    and thrived simply because they are the best option for your money. Millions of investors have 
+                                    brought value to their lives and strengthened their future through clever investments in stocks.ring 
+                                    to your life & future.
                                 </p>
-                                <div class = "video">
+                                <div class = "video" data-aos="fade-right" data-aos-duration="1500">
                                     <iframe id = "iframe-video" width="100%" height="100%" src="https://www.youtube.com/embed/VFxKo73UQzM"
                                      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                                     </iframe>
                                 </div>
                             </div>
-                            <div id = "form" class = "form-container">
-                                <img src = "images/Stocks Man logo dark.png">
-                                <h2 class = "form-header">Fill in the form and start getting rich</h2>
+                            <div id = "form" class = "form-container" data-aos="fade-left" data-aos-duration="1500">
+                                <h2 class = "form-header">Join the Millions!</h2>
                                 <h3>STEP 1</h3>
                                 <form>
                                     <input type = "text" placeholder="First Name"/>
@@ -122,95 +106,87 @@
                         <p class = "intro-disclaimer">*Copyrights Disclaimer</p>
                 </section>
                 <section id = "about" class = "about">
+                    <img src = "images/1.png" class = "absolute-img about-first">
+                    <img src = "images/2.png" class = "absolute-img about-second">
+                    <img src = "images/3.png" class = "absolute-img about-third">
+                    <img src = "images/4.png" class = "absolute-img about-fourth">
+                    <img src = "images/5.png" class = "absolute-img about-fifth">
                     <div class = "container">
-                        <h2 class = "about-header">Why Experts say that “Stocks are good investment”?</h2>
                         <div class = "about-intro">
-                            <p class = "intro-paragraph">
-                                For over 400 years stocks have been a part of our life. It is recognized as one of the most solid 
-                                financial assets and this is since stocks behave different rather than other financial assets, 
-                                such as Commodities, Bonds, etc…</br>
+                            <div class = "header-container">
+                                <h2>Why Stocks are the best investment? Here’s what the experts say.</h2>
+                                <p class = "text">For over 400 years stocks have been a part of our lives. Recognized as one of the 
+                                    most solid financial assets, stocks behave different than other assets such as Commodities, Bonds, 
+                                    etc…
+                                </p>
+                            </div>
+                            <p class = "content">Every human, who values their future, always looks for investment opportunities that 
+                                can increase their current income, provide financial security and build towards a solid retirement plan. 
+                                Securing a better financial future might lead us to venture into unknown terrain, like the financial 
+                                markets. Most people are apprehensive, as financial markets often feel complex and cumbersome. How can 
+                                someone succeed in these markets?</br>
                             </br>
-                                It is a fact that we are all… you, me, our parents (well even our grandparents) been looking for 
-                                an investment venture to either make ends meet or maybe to start a retirement fund, thus aiming at 
-                                a better financial future, this leads us to venture in to the unknown terrain of the financial 
-                                markets… And lets be honest, what do we really know about the financial markets and investments?
-                            </p>
-                            <p class = "intro-paragraph">Well the answer is very simple. In the past 20 years or so, we’ve moved 
-                                from being in the darkness when it comes to investments and evolved to a stage where if you are 
-                                not investing you are considered to be wasting your money! Which in somewhat is true, since our 
-                                invested funds creates more value which will be translated to what we call “Nominal Value”, real 
-                                value, aka cash money in our bank accounts.”</br>
-                            </br>
-                                The question is not if we should invest or not, the question is - How to invest & in what to 
-                                invest…. The answer is simple, but at the same time the reality of today creates a “simple complex” 
-                                for us retailers, and to find the solution one needs to keep specific rules to kick of his own 
-                                journey as an “investor”.
-                            </p>
+                                Well the answer is very simple. In the past 20 years, investing has moved out of the darkness and into 
+                                the limelight. No longer are opportunities available to selected few investors, like Warren Buffet and 
+                                Peter Lynch.</br>
+                        </br>
+                                Today, if you’re not investing, you are considered to be keeping your money idle. That is, your money is 
+                                not “working” for you; and by working… we mean its not earning you more money! Investing and 
+                                understanding the markets has now become simple and widespread. There are tons of tutorials available, 
+                                simple to use software and a bunch load of great investment tips. All readily available to assist you in 
+                                growing your wealth.
+                            </p> 
                         </div>
                         <div class = "about-items">
-                            <div class = "item">
+                            <div class = "item" data-aos="zoom-in" data-aos-duration="1000">
                                 <img src = "images/icon Search.png">
+                                <h2>Step #1</h2>
                                 <h3 class = "item-header">Choose a stock you know</h3>
                                 <p class = "item-content">
-                                    A stock like Apple, Amazon, Facebook and other similar ones. Why? Cause these stocks are 
-                                    involved in our daily life, the information about them is massive and it is also available 
-                                    for us to easily digest and understand. Most investors name this step as; 
-                                    “Build your watch list”, so you can follow specific stocks which you like.
+                                    Stocks like Apple, Amazon, Facebook and similar ones. Why? Cause they’re familiar. You know them, 
+                                    you use them every day. You know what the market thinks of these stocks. Who’s the Market? You, 
+                                    friends, family, basically everyone! We are all part of ‘the market’.</br>
+                                </br>
+                                    Information on these stocks is readily available and easy to understand. So place these stocks on 
+                                    your “watch list” and keep an eye on their growth.
                                 </p>
                             </div>
-                            <div class = "item">
+                            <div class = "item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
                                 <img src = "images/Icon Broker.png">
+                                <h2>Step #2</h2>
                                 <h3 class = "item-header">Find your broker</h3>
                                 <p class = "item-content">
-                                    In order for you to actually use your money and invest it, you need to find a LICENCED 
-                                    financial institution which can easily assist in setting an account in no time, verify it and 
-                                    move on to fund it and finally invest it. 
-                                    Today we have so many online or mobile brokers and financial institutions out there, that 
-                                    offers variety of trading ventures on these stocks where we’ve reached the point that it is 
-                                    like looking for a McDonalds branch :)
+                                    Finding a licensed financial institution to help you grow your money is super easy. Today there are 
+                                    as many brokers as there are McDonald’s stores! Reputable brokers can help guide you every step of 
+                                    the way. Additionally, investment software is now easy to learn and use and available on any device; 
+                                    PC, Pad and Mobile, so you can pretty much invest while on the go.
                                 </p>
                             </div>
-                            <div class = "item">
+                            <div class = "item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
                                 <img src = "images/Icon Capital.png">
+                                <h2>Step #3</h2>
                                 <h3 class = "item-header">Your Capital, Your Risk</h3>
                                 <p class = "item-content">
-                                    Stocks & Shares are considered to be a "Safe Investment", not because it is really safe, 
-                                    there is no such thing as safe investment, how ever - Stocks are a more solid asset to invest in 
-                                    since it shows less movements. As per the four stocks displayed in this page, you can see that the 
-                                    yearly growth (Potential of profit) varies between 25% to 78%. 
+                                    Always remember to invest your money wisely. What does this mean? DON’T SPEND ALL YOUR MONEY! 
+                                    Instead, invest a limited amount that you can afford and which correlates to the actual market 
+                                    rate. </br>
+                                </br>
+                                    That is,  if an Amazon share is currently valued at 3300 USD per share, starting with 30 USD will 
+                                    not cut it.  
                                 </p>
-                            </div>
-                            <div class = "conclusion">
-                                <span class = "blue-color">In conclusion</span></br>
-                            </br>
-                                If you are ready to take this step, or still hesitant to take this leap, we’ve prepared
-                                <span class = "blue-color">a list of most popular stocks</span> for you to read about and at the same time, we offer you the ability to kick off your 
-                                journey by creating a new account with one of our recommended licensed institutions, by simply filling 
-                                in the form above.</br>
-                            </br>
-                                <span class = "blue-color">Setting such account</span> will allow you access to an easy to operate investment or trading platform which is 
-                                also accessible from your phone, there you can create your watch list and more over receive access to 
-                                education and additional investment tools as a part of their service. 
-                            </div>
-                        </div>
-                        <div class = "lets-go">
-                            <h3>You can also subscribe to our community and newsletter and find what others 
-                                like you have done when they were in your position.
-                            </h3>
-                            <h2 class = "blue-header">Ready? Let’s go!</h2>
-                            <div class = "about-links">
-                                <a href = "#form" id = "register-link" class = "lets-go-link first-link">Register</a>
-                                <a href = "#" class = "lets-go-link second-link">Follow Community</a>
                             </div>
                         </div>
                     </div>
                 </section>
                 <section class = "stock-leaders">
+                    <img src = "images/1.png" class = "absolute-img stock-first">
+                    <img src = "images/4.png" class = "absolute-img stock-fourth">
+                    <img src = "images/5.png" class = "absolute-img stock-fifth">
                     <div class = "container">
                         <h2 class = "stock-leaders-header">Meet the Stock Trading Leaders</h2>
                         <h3 class = "stock-leaders-subheader">Here are a few things about the companies</h3>
                         <div class = "stock-leaders-items">
-                            <div class = "item">
+                            <div class = "item" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                                 <img src = "images/Amazon logo.png">
                                 <h3 class = "header">Amazon</h3>
                                 <div class = "details">
@@ -222,7 +198,7 @@
                                     <p><span class = "bold">Revenue:</span> 280.5 Billion USD</p>
                                 </div>
                             </div>
-                            <div class = "item">
+                            <div class = "item" data-aos="fade-right" data-aos-duration="1000">
                                 <img src = "images/Apple logo.png">
                                 <h3 class = "header">Apple</h3>
                                 <div class = "details">
@@ -234,7 +210,7 @@
                                     <p><span class = "bold">Net Worth:</span> 2 Trillion USD</p>
                                 </div>
                             </div>
-                            <div class = "item">
+                            <div class = "item" data-aos="fade-left" data-aos-duration="1000">
                                 <img src = "images/Facebook logo.png">
                                 <h3 class = "header">Facebook</h3>
                                 <div class = "details">
@@ -246,7 +222,7 @@
                                     <p><span class = "bold">Revenue:</span> 280.5 Billion USD</p>
                                 </div>
                             </div>
-                            <div class = "item">
+                            <div class = "item" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
                                 <img src = "images/Google logo.png">
                                 <h3 class = "header">Google</h3>
                                 <div class = "details">
@@ -259,42 +235,86 @@
                                 </div>
                             </div>
                         </div>
+                        <p class = "conclusion">
+                                <span class = "blue-color">Let’s sum it up.</span></br>
+                            </br>
+                                If you yearn to amplify your income, then you are ready to take this step. To help you out, we’ve prepared a 
+                                list of the most popular stocks for you.  At the same time, we offer you the ability to kick off your journey 
+                                by creating a new account with one of our reputable licensed institutions, simply by filling in the form 
+                                above.</br>
+                            </br>
+                                Setting up an account will give you access to an easy to use trading platform accessible from any device, 
+                                where you can create your watch list. More over you will receive access to free educational material and 
+                                additional investment tools that can assist you in your financial journey.
+                        </p>
+                        <div class = "lets-go">
+                            <h3>
+                                You’re not alone. Our community of seasoned traders all started out just like you, from scratch! 
+                                Subscribe to our community and find out how other people, just like you, have achieved success by 
+                                investing in the financial markets. 
+                            </h3>
+                            <h2 class = "blue-header" data-aos="fade-down" data-aos-duration="1000">Join the Millions!</h2>
+                            <div class = "about-links" data-aos="flip-up" data-aos-duration="1000">
+                                <a href = "#form" id = "register-link" class = "lets-go-link first-link">Register</a>
+                                <a href = "#" class = "lets-go-link second-link">Follow Community</a>
+                            </div>
+                        </div>
                     </div>
                 </section>
                 <section id = "faq" class = "faq">
+                    <img src = "images/1.png" class = "absolute-img faq-first">
+                    <img src = "images/2.png" class = "absolute-img faq-second">
+                    <img src = "images/3.png" class = "absolute-img faq-third">
+                    <img src = "images/4.png" class = "absolute-img faq-fourth">
+                    <img src = "images/5.png" class = "absolute-img faq-fifth">
                     <div class = "container">
                         <h2 class = "faq-header">FAQ</h2>
                         <p class = "faq-caption">Frequently Asked Questions</p>
                         <div class = "answers">
-                           <details>
+                           <details data-aos="flip-up" data-aos-duration="1000">
                                <summary> <div class = "round-button">+</div>How much can I earn from Stock Trading?</summary>
-                                    <p>The average company growth on a year to year basis currently stands on 65%. However some 
-                                        companies are showing higher percentages, so your ability to profit derives from the stock you 
-                                        will invest in the growth it shows.
+                                    <p>This is a subjective question. Earning from stocks can relate to both your entry time and 
+                                        position. As an example, in 2020, Amazon Inc Stocks increased their value from $1,771 per 
+                                        share to over $3,000. That translates to a yearly growth of over 77% which was the potential 
+                                        profit one could have gained that year.
                                     </p>
                            </details>
-                           <details>
-                                <summary> <div class = "round-button">+</div>Where can I buy or trade stocks?</summary>
-                                <p>Most stocks are being traded on the stock markets and are available for purchase via financial institutes. We also offer a variety of alternative
-                                    investments you can make with additional brokers for both investing and buying stocks or stock contracts for difference.
+                           <details data-aos="flip-up" data-aos-duration="1000" data-aos-delay="100">
+                                <summary> <div class = "round-button">+</div>How long does it take to setup a trading account?</summary>
+                                <p>Opening an account, verifying it and purchasing your first assets, takes about 5 minutes. 
+                                    But having said that, there is always more than just making a registration, depositing funds and 
+                                    buying a stock. It is advisable that you also budget some time for learning the ins and outs of 
+                                    trading. Our expert trading community provides education that covers all levels of trading; from 
+                                    beginner to pro. Make sure you check some of our partners' educational programmes. They will help 
+                                    take you and your trades to the next level.
                                 </p>
                             </details>
-                            <details>
-                                <summary> <div class = "round-button">+</div>How much time will it require from me?</summary>
-                                <p>The time investment in any new venture we choose to go for is subjective to the dedication you will have. In reality, opening an account, verifying it and
-                                    purchase your assets takes about 5 minutes. But having said that, there is always more than just making a registration, depositing funds and buying a stock.
+                            <details data-aos="flip-up" data-aos-duration="1000" data-aos-delay="200"> 
+                                <summary> <div class = "round-button">+</div>Can i have more than one trading account?</summary>
+                                <p>Yes it is possible to have multiple trading accounts. Always make sure you open an account with 
+                                    one of our reputable, licensed brokers.
                                 </p>
                             </details>
-                            <details>
-                                <summary> <div class = "round-button">+</div>Is my information safe?</summary>
-                                <p>As a main both us an our recommended partners are in full correlation with KYC, AML, Privacy Policies, Terms of Use (EULA) and most important GDPR guide lines.
-                                    So your information is safe as per the law and the global data protection requirements.
+                            <details data-aos="flip-up" data-aos-duration="1000" data-aos-delay="300"> 
+                                <summary> <div class = "round-button">+</div>What is the minimum amount required to open a trading account?</summary>
+                                <p>Once you have opened an account with one of our many regulated brokers, you will need to fund it 
+                                    in order to start trading. It's customary that traders start off with an investment ranging from 
+                                    $250-$1,000. the minimum amount depends on the broker and the assets you wish to trade.
                                 </p>
                             </details>
-                            <details>
-                                <summary> <div class = "round-button">+</div>What should I do next?</summary>
-                                <p>If you’ve decided to move forward and pursue this venture, please go ahead and create your watch list, set up an account with one of our recommended partners and
-                                    of you go
+                            <details data-aos="flip-up" data-aos-duration="1000" data-aos-delay="400">
+                                <summary> <div class = "round-button">+</div>What is the minimum amount i need to trade?</summary>
+                                <p>Once you have opened an account with one of our many regulated brokers, you will need to fund it in 
+                                    order to start trading. It's customary that traders start off with an investment ranging from 
+                                    $250-$1,000. the minimum amount depends on the broker and the assets you wish to trade.
+                                </p>
+                            </details>
+                            <details data-aos="flip-up" data-aos-duration="1000" data-aos-delay="500">
+                                <summary> <div class = "round-button">+</div>Is my account protected?</summary>
+                                <p>We take data security and privacy very seriously. Both us and our recommended partners are in full 
+                                    compliance with KYC, AML, Privacy Policies, Terms of Use (EULA) and most importantly GDPR 
+                                    guidelines. So your information is safe as per the applicable laws and global data protection 
+                                    requirements.
                                 </p>
                             </details>
                         </div>
@@ -328,7 +348,7 @@
                     </div>
                 </div>
                 <div class = "risk-disclaimer">
-                    <h2>IMPORTANT RISK DISCLAIMER! PLEASE REVIEW THE BELOW!</h2>
+                    <p>IMPORTANT RISK DISCLAIMER! PLEASE REVIEW THE BELOW!</p>
                     <p>The below risk warning was copied (Without any text modifications nor editing), directly form Trade360 official
                         Risk Warning Page. Trade360 Official RISK WARNING: CFDs are complex instruments and come with a high risk of 
                         losing money rapidly due to leverage. 67.83% of retail investor accounts lose money when trading CFDs with 
@@ -342,6 +362,9 @@
                 <p class = "rights">© 2020 All Rights Reserved | The Stocks Man, is a <a href = "https://mr.click/" target="_blank">Mr.Click</a> brand operated by Blue Media LTD</p>
             </footer>
         </div>
+        <script>
+            AOS.init();
+        </script>
         <script>
             let showMenu = () => {
                 document.getElementById( "menu-container" ).classList.remove("hidden");
