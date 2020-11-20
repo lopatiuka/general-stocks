@@ -310,7 +310,7 @@ main {
     text-align: left;
     text-transform: uppercase;
     color: #2E2E2E;
-    margin-bottom: 0;
+    margin-bottom: 70px;
     margin-top: 0;
     width: 1270px;
 }
@@ -350,7 +350,7 @@ main {
     justify-content: flex-start;
     align-items: center;
     width: 407px;
-    height: 777px;
+    height: auto;
     margin-top: 50px;
     margin-left: 20px;
     box-shadow: -9px -9px 16px rgba(255, 255, 255, 0.6), 9px 9px 16px rgba(179, 179, 179, 0.25);
@@ -428,6 +428,7 @@ input::-webkit-input-placeholder {
     background-color: #1D46F6;
     border-radius: 50px;
     color: white;
+    margin-bottom: 30px;
     transition-property: background-color;
     transition-duration: 0.2s;
 }
@@ -1670,6 +1671,15 @@ details[open] summary .round-button {
 @media ( max-width: 1300px ) {
     header .container {
         justify-content: center;
+    }
+
+    .stock-fourth {
+        top: 5322px;
+        left: 340px;
+    }
+    
+    .stock-fifth {
+        top: 5050px;
     }
 
     header .exposure {
