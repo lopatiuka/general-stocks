@@ -363,10 +363,12 @@ main {
     display: none;
 }
 
+.intro .container .content .form-container .image-step2 {
+    margin-top: 0;    
+}
+
 .intro .container .content .form-container img {
-    margin-top: 50px;
-    /* width: 166.99px;
-    height: 100px;     */
+    margin-top: 50px;    
 }
 
 .intro .container .content .form-container h2 {
