@@ -146,24 +146,19 @@ header .container {
 header .container .main-content {
     display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   width: 1270px;
 }
 
-header .exposure{
-    margin-right: 100px;
-    position: absolute;
-    right: 0;
-    z-index: 10;
-}
-header .exposure .country {
+header .container .main-content .exposure .country {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-header .exposure .caption {
+
+header .container .main-content .exposure .caption {
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -173,7 +168,8 @@ header .exposure .caption {
     color: #606060;
     margin: 10px; 
 }
-header .exposure .country p {
+
+header .container .main-content .exposure .country p {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -184,7 +180,7 @@ header .exposure .country p {
     margin: 0; 
     text-transform: uppercase;
 }
-header .exposure .country img {
+header .container .main-content .exposure .country img {
     width: 42px;
     height: 42px;
     border-radius: 200px;
@@ -1790,11 +1786,11 @@ details[open] summary .round-button {
     }
 
     header .container .main-content {
-        width: 1000.31px;
+        width: 1177px;
     }
 
     .intro .container .content .video-container {
-        width: 657.2px;
+        width: 843px;
         height: auto;
     }
 
@@ -1960,6 +1956,10 @@ details[open] summary .round-button {
     .intro .container .content .video-container {
         width: 657.2px;
         height: auto;
+    }
+
+    .intro .container .content .video-container .video {
+        height: 396px;
     }
 
     .intro .container .content .video-container .video-header h1 {
@@ -2155,9 +2155,12 @@ details[open] summary .round-button {
 }
 
 @media ( max-width: 1000px ) {
+    header .container {
+        width: 800px;
+    }
+
     header .container .main-content {
         width: 100%;
-        justify-content: center;
     }
 
     header .container .main-content .navigation {
@@ -2502,8 +2505,8 @@ details[open] summary .round-button {
         z-index: -1;
     }
 
-    header .exposure {
-        right: -50px;
+    header .container {
+        width: 670px;
     }
 
     header .exposure .caption {
@@ -2512,11 +2515,11 @@ details[open] summary .round-button {
 
     .intro .container .content .video-container {
         width: 649px;
+        margin-bottom: 0;
     }
 
     .intro .container .content .form-container {
         width: 649px;
-        height: 739px;
     }
 
     .intro .container .content .form-container form input {
@@ -3191,10 +3194,13 @@ details[open] summary .round-button {
         top: 550px;
     }
 
+    header .container {
+        width: 820px;
+    }
+
     header .exposure {
         display: flex;
         flex-direction: column;
-        right: -410px;
     }
 
     header .exposure .country {
