@@ -358,6 +358,11 @@ main {
     background-color: #F9F9F9;
 }
 
+
+.intro .container .content .hidden-form2 {
+    display: none;
+}
+
 .intro .container .content .form-container img {
     margin-top: 50px;
     /* width: 166.99px;
