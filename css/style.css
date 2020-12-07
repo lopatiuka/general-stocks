@@ -360,8 +360,8 @@ main {
 
 .intro .container .content .form-container img {
     margin-top: 50px;
-    width: 166.99px;
-    height: 100px;    
+    /* width: 166.99px;
+    height: 100px;     */
 }
 
 .intro .container .content .form-container h2 {
