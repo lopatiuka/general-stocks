@@ -2845,6 +2845,10 @@ details[open] summary .round-button {
         text-align: center;
     }
 
+    .intro .container .content #form2 {
+        height: auto;
+    }
+
     .intro .container .content .form-container {
         width: 800px;
         height: auto;
