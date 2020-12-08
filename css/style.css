@@ -359,6 +359,20 @@ main {
     display: none;
 }
 
+.intro .container .content #form2 {
+    height: 524px;
+    justify-content: space-between;
+}
+
+.intro .container .content #form2 h2 {
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.intro .container .content #form2 h3 {
+    font-weight: bold;
+}
+
 .intro .container .content .form-container .image-step2 {
     margin-top: 0;    
 }
@@ -1970,6 +1984,10 @@ details[open] summary .round-button {
 
     .intro .container .content .video-container .video-header {
         align-self: center;
+    }
+
+    .intro .container .content #form2 {
+        height: 396px;
     }
 
     .intro .container .content .form-container {
