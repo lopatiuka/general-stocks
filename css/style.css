@@ -1123,11 +1123,16 @@ input::-webkit-input-placeholder {
     align-items: center;
     border-radius: 10px;
     background-color: #F3F3F3;
+    white-space: nowrap;
 
     font-size: 18px;
     line-height: 27px;
     letter-spacing: 0em;
     color: #1367CD;
+}
+
+.faq .container .answers details summary .summary-text {
+    white-space: initial;
 }
 
 .faq .container .answers details summary .round-button{
@@ -3548,6 +3553,7 @@ details[open] summary .round-button {
 
     .faq .container .answers details summary .round-button {
         width: 60px;
+        min-width: 60px;
         height: 60px;
         font-size: 50px;
     }
